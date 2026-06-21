@@ -1,0 +1,401 @@
+order_id,sold_at,region,category,product,segment,quantity,unit_price,total_amount,payment_method
+ORD-00001,2025-11-19,South,Electronics,Headphones,B2B,4,1350.3,5401.2,Card
+ORD-00002,2025-11-09,North,Sports,Yoga Mat,B2B,1,539.63,539.63,Wire
+ORD-00003,2026-03-03,West,Sports,Running Shoes,B2B,4,43.35,173.4,Check
+ORD-00004,2025-12-02,West,Home,Kettle,B2C,3,1144.24,3432.72,Cash
+ORD-00005,2026-03-23,North,Apparel,Jeans,B2C,7,35.95,251.65,Cash
+ORD-00006,2025-11-28,West,Home,Kettle,B2B,2,1101.35,2202.7,Cash
+ORD-00007,2025-11-22,North,Sports,Tennis Racket,Enterprise,2,528.07,1056.14,Wire
+ORD-00008,2026-02-16,East,Electronics,Laptop,B2C,7,1567.68,10973.76,Cash
+ORD-00009,2026-03-21,North,Home,Sofa,Enterprise,5,334.02,1670.1,Wire
+ORD-00010,2025-12-16,South,Apparel,Sneakers,Enterprise,5,109.76,548.8,Cash
+ORD-00011,2026-04-17,East,Apparel,Jacket,B2B,7,180.03,1260.21,Wire
+ORD-00012,2025-12-07,West,Home,Lamp,B2B,7,991.77,6942.39,Cash
+ORD-00013,2026-03-27,West,Apparel,Cap,B2C,7,125.49,878.43,Wire
+ORD-00014,2026-03-27,North,Sports,Dumbbells,B2B,1,100.0,100.0,Wire
+ORD-00015,2025-11-08,West,Books,Tech Manual,Enterprise,7,11.3,79.1,Cash
+ORD-00016,2025-12-11,East,Electronics,Headphones,B2B,5,1246.18,6230.9,Cash
+ORD-00017,2026-01-10,South,Apparel,T-shirt,Enterprise,5,15.67,78.35,Card
+ORD-00018,2025-11-22,East,Home,Cookware,B2B,3,923.23,2769.69,Card
+ORD-00019,2025-11-29,East,Home,Mattress,B2B,6,53.73,322.38,Card
+ORD-00020,2026-03-01,North,Sports,Yoga Mat,Enterprise,8,95.38,763.04,Wire
+ORD-00021,2026-03-30,South,Books,Tech Manual,Enterprise,7,16.59,116.13,Wire
+ORD-00022,2026-02-11,North,Books,Biography,B2B,8,30.78,246.24,Wire
+ORD-00023,2026-04-15,South,Home,Kettle,B2B,4,892.76,3571.04,Card
+ORD-00024,2025-11-21,East,Electronics,Laptop,B2B,1,177.28,177.28,Wire
+ORD-00025,2026-02-19,South,Books,Cookbook,B2C,8,36.04,288.32,Check
+ORD-00026,2026-03-14,West,Electronics,Headphones,B2C,6,1206.63,7239.78,Check
+ORD-00027,2026-04-18,North,Electronics,Headphones,B2B,6,760.56,4563.36,Wire
+ORD-00028,2026-03-14,East,Sports,Dumbbells,B2C,3,143.36,430.08,Wire
+ORD-00029,2026-04-12,North,Books,Tech Manual,B2B,1,13.09,13.09,Wire
+ORD-00030,2026-01-17,North,Books,Children,B2B,7,19.11,133.77,Check
+ORD-00031,2026-05-01,East,Books,Biography,B2C,8,56.18,449.44,Check
+ORD-00032,2026-03-23,North,Apparel,Jeans,Enterprise,1,59.63,59.63,Cash
+ORD-00033,2026-04-17,North,Electronics,Smart Watch,Enterprise,3,889.61,2668.83,Card
+ORD-00034,2026-03-15,West,Electronics,Smart Watch,B2B,4,178.25,713.0,Wire
+ORD-00035,2025-12-04,East,Sports,Yoga Mat,B2C,7,565.06,3955.42,Wire
+ORD-00036,2025-11-11,East,Home,Lamp,B2C,3,416.78,1250.34,Cash
+ORD-00037,2026-04-13,North,Electronics,Tablet,Enterprise,2,1140.82,2281.64,Wire
+ORD-00038,2025-12-23,South,Home,Lamp,B2C,2,1401.56,2803.12,Cash
+ORD-00039,2026-03-22,East,Books,Tech Manual,Enterprise,1,44.58,44.58,Card
+ORD-00040,2026-03-28,East,Home,Kettle,B2C,3,1337.33,4011.99,Wire
+ORD-00041,2026-02-03,North,Apparel,Jeans,B2B,5,118.61,593.05,Check
+ORD-00042,2026-02-20,East,Electronics,Headphones,B2B,3,640.39,1921.17,Check
+ORD-00043,2025-12-11,South,Books,Tech Manual,Enterprise,2,8.5,17.0,Card
+ORD-00044,2026-01-27,North,Sports,Running Shoes,B2C,3,150.32,450.96,Cash
+ORD-00045,2026-04-21,East,Home,Lamp,Enterprise,2,1031.05,2062.1,Check
+ORD-00046,2025-11-24,West,Apparel,Sneakers,B2B,3,192.24,576.72,Wire
+ORD-00047,2026-02-05,West,Books,Cookbook,B2B,2,21.87,43.74,Check
+ORD-00048,2026-03-06,South,Apparel,T-shirt,B2B,4,86.68,346.72,Wire
+ORD-00049,2026-01-19,East,Home,Sofa,Enterprise,5,1299.92,6499.6,Check
+ORD-00050,2025-11-09,East,Sports,Tennis Racket,B2B,2,846.53,1693.06,Cash
+ORD-00051,2026-04-22,West,Electronics,Smart Watch,Enterprise,6,816.14,4896.84,Card
+ORD-00052,2026-01-23,North,Sports,Bike,Enterprise,7,244.16,1709.12,Wire
+ORD-00053,2026-01-28,East,Books,Novel,Enterprise,6,57.34,344.04,Card
+ORD-00054,2026-02-14,West,Sports,Tennis Racket,Enterprise,6,606.87,3641.22,Cash
+ORD-00055,2025-12-11,South,Apparel,Sneakers,Enterprise,7,101.19,708.33,Cash
+ORD-00056,2026-01-18,West,Sports,Yoga Mat,Enterprise,4,287.41,1149.64,Cash
+ORD-00057,2026-01-02,South,Books,Children,Enterprise,8,43.13,345.04,Card
+ORD-00058,2026-02-18,East,Sports,Running Shoes,B2B,4,314.97,1259.88,Wire
+ORD-00059,2026-03-25,North,Electronics,Headphones,B2C,8,486.03,3888.24,Check
+ORD-00060,2025-11-21,West,Sports,Bike,B2C,7,652.14,4564.98,Wire
+ORD-00061,2026-03-25,South,Electronics,Headphones,Enterprise,4,1414.45,5657.8,Check
+ORD-00062,2026-04-19,West,Sports,Bike,B2B,2,827.37,1654.74,Check
+ORD-00063,2025-11-12,West,Sports,Running Shoes,Enterprise,8,544.0,4352.0,Check
+ORD-00064,2026-03-22,East,Books,Children,Enterprise,4,21.48,85.92,Check
+ORD-00065,2025-11-22,South,Apparel,Jeans,B2C,5,105.17,525.85,Cash
+ORD-00066,2026-02-09,West,Sports,Yoga Mat,Enterprise,4,141.77,567.08,Wire
+ORD-00067,2025-11-02,West,Apparel,Jacket,B2C,6,100.05,600.3,Card
+ORD-00068,2026-03-10,West,Books,Children,B2C,1,55.05,55.05,Card
+ORD-00069,2026-01-31,South,Home,Mattress,B2C,7,1283.84,8986.88,Wire
+ORD-00070,2026-02-21,West,Books,Children,Enterprise,6,9.51,57.06,Wire
+ORD-00071,2026-01-02,North,Apparel,Cap,B2B,7,124.5,871.5,Check
+ORD-00072,2026-03-28,East,Books,Cookbook,B2B,7,10.61,74.27,Check
+ORD-00073,2026-02-07,East,Home,Mattress,B2B,7,435.43,3048.01,Check
+ORD-00074,2026-04-27,South,Sports,Yoga Mat,Enterprise,6,899.92,5399.52,Card
+ORD-00075,2025-11-16,North,Electronics,Headphones,Enterprise,4,1712.32,6849.28,Wire
+ORD-00076,2026-03-01,West,Apparel,T-shirt,Enterprise,4,152.24,608.96,Cash
+ORD-00077,2026-01-27,South,Apparel,Cap,B2C,2,139.49,278.98,Card
+ORD-00078,2025-12-04,West,Electronics,Phone,Enterprise,7,1061.89,7433.23,Wire
+ORD-00079,2026-04-12,North,Sports,Bike,Enterprise,5,109.67,548.35,Card
+ORD-00080,2026-02-02,East,Sports,Dumbbells,B2B,2,602.14,1204.28,Check
+ORD-00081,2025-12-27,South,Electronics,Tablet,B2C,8,1731.77,13854.16,Wire
+ORD-00082,2025-12-19,West,Home,Cookware,B2C,8,1217.09,9736.72,Cash
+ORD-00083,2026-02-08,South,Apparel,Jacket,B2C,8,72.18,577.44,Check
+ORD-00084,2026-02-04,West,Electronics,Tablet,B2B,3,1540.66,4621.98,Cash
+ORD-00085,2026-02-24,North,Home,Sofa,Enterprise,5,1323.47,6617.35,Wire
+ORD-00086,2026-04-10,West,Apparel,T-shirt,Enterprise,4,115.16,460.64,Check
+ORD-00087,2026-01-07,South,Electronics,Headphones,B2C,7,571.97,4003.79,Cash
+ORD-00088,2025-12-31,East,Sports,Running Shoes,Enterprise,6,322.51,1935.06,Check
+ORD-00089,2026-02-21,East,Home,Sofa,B2B,4,365.04,1460.16,Wire
+ORD-00090,2026-03-13,North,Apparel,T-shirt,B2B,5,71.68,358.4,Cash
+ORD-00091,2026-03-04,East,Home,Lamp,B2B,3,470.84,1412.52,Card
+ORD-00092,2025-12-11,North,Home,Lamp,B2B,8,965.86,7726.88,Cash
+ORD-00093,2026-01-01,East,Books,Children,B2C,1,25.72,25.72,Card
+ORD-00094,2026-04-15,South,Books,Children,B2B,1,11.85,11.85,Cash
+ORD-00095,2026-04-10,South,Apparel,Jacket,Enterprise,7,129.4,905.8,Check
+ORD-00096,2026-01-06,East,Books,Biography,Enterprise,7,52.73,369.11,Card
+ORD-00097,2025-11-26,North,Electronics,Laptop,B2B,5,1148.4,5742.0,Wire
+ORD-00098,2026-03-18,West,Sports,Yoga Mat,Enterprise,7,157.75,1104.25,Check
+ORD-00099,2026-02-16,West,Electronics,Laptop,B2B,5,561.3,2806.5,Wire
+ORD-00100,2026-02-23,South,Sports,Bike,B2C,4,394.12,1576.48,Wire
+ORD-00101,2026-04-13,West,Electronics,Laptop,B2B,5,1439.17,7195.85,Check
+ORD-00102,2025-11-06,West,Home,Mattress,B2B,8,1415.45,11323.6,Card
+ORD-00103,2026-01-11,South,Home,Cookware,Enterprise,2,394.29,788.58,Card
+ORD-00104,2025-11-10,West,Home,Cookware,Enterprise,3,84.34,253.02,Check
+ORD-00105,2026-02-19,North,Apparel,Cap,B2C,8,104.36,834.88,Cash
+ORD-00106,2026-01-17,East,Home,Sofa,B2C,3,1013.45,3040.35,Check
+ORD-00107,2026-02-17,East,Books,Tech Manual,B2C,2,9.91,19.82,Cash
+ORD-00108,2026-04-02,West,Books,Tech Manual,B2C,1,50.9,50.9,Card
+ORD-00109,2026-03-14,West,Sports,Tennis Racket,B2B,8,567.92,4543.36,Wire
+ORD-00110,2026-02-22,West,Sports,Bike,B2B,8,836.35,6690.8,Card
+ORD-00111,2025-11-21,North,Sports,Bike,Enterprise,5,644.61,3223.05,Check
+ORD-00112,2026-04-08,South,Apparel,Jacket,B2C,2,109.6,219.2,Cash
+ORD-00113,2025-12-22,South,Home,Mattress,B2C,8,1256.22,10049.76,Wire
+ORD-00114,2026-01-23,North,Apparel,Cap,B2C,3,119.19,357.57,Check
+ORD-00115,2026-02-03,East,Sports,Tennis Racket,Enterprise,5,742.08,3710.4,Check
+ORD-00116,2026-03-24,West,Books,Tech Manual,B2C,6,33.19,199.14,Cash
+ORD-00117,2026-03-14,North,Apparel,Cap,B2C,7,93.51,654.57,Check
+ORD-00118,2025-11-02,West,Books,Children,B2B,3,59.4,178.2,Wire
+ORD-00119,2025-12-24,North,Sports,Tennis Racket,Enterprise,8,785.34,6282.72,Check
+ORD-00120,2026-04-28,North,Apparel,T-shirt,B2C,3,193.54,580.62,Cash
+ORD-00121,2026-02-04,West,Sports,Dumbbells,B2C,6,591.86,3551.16,Check
+ORD-00122,2025-12-14,South,Electronics,Smart Watch,Enterprise,5,179.05,895.25,Card
+ORD-00123,2026-01-10,North,Electronics,Headphones,B2B,5,832.0,4160.0,Cash
+ORD-00124,2026-04-17,South,Home,Sofa,Enterprise,3,577.89,1733.67,Check
+ORD-00125,2025-12-08,South,Apparel,Sneakers,B2C,7,50.89,356.23,Wire
+ORD-00126,2026-03-03,West,Books,Biography,B2C,1,31.9,31.9,Wire
+ORD-00127,2026-04-13,West,Books,Biography,Enterprise,5,59.36,296.8,Cash
+ORD-00128,2026-01-05,North,Home,Lamp,B2B,8,1499.08,11992.64,Check
+ORD-00129,2025-12-06,North,Home,Cookware,Enterprise,5,461.41,2307.05,Check
+ORD-00130,2026-02-20,West,Electronics,Smart Watch,B2C,1,1565.22,1565.22,Wire
+ORD-00131,2025-11-27,South,Home,Lamp,Enterprise,5,964.01,4820.05,Card
+ORD-00132,2025-11-22,East,Electronics,Phone,Enterprise,1,1432.18,1432.18,Wire
+ORD-00133,2026-04-08,South,Home,Sofa,B2B,3,1127.53,3382.59,Cash
+ORD-00134,2025-12-17,West,Sports,Tennis Racket,B2C,5,750.82,3754.1,Cash
+ORD-00135,2026-04-02,West,Books,Novel,Enterprise,4,15.32,61.28,Cash
+ORD-00136,2026-04-08,West,Books,Novel,B2C,2,21.75,43.5,Cash
+ORD-00137,2025-12-03,West,Books,Biography,B2B,4,13.63,54.52,Cash
+ORD-00138,2025-11-26,East,Apparel,Jacket,Enterprise,8,145.26,1162.08,Check
+ORD-00139,2026-04-02,West,Apparel,Jacket,B2B,5,208.98,1044.9,Card
+ORD-00140,2026-03-02,West,Sports,Bike,Enterprise,6,362.01,2172.06,Wire
+ORD-00141,2026-01-15,North,Electronics,Tablet,Enterprise,5,1131.23,5656.15,Cash
+ORD-00142,2026-03-07,North,Books,Children,Enterprise,6,57.43,344.58,Cash
+ORD-00143,2025-12-13,North,Home,Kettle,B2C,4,612.26,2449.04,Card
+ORD-00144,2025-11-13,East,Apparel,Cap,B2B,1,214.07,214.07,Wire
+ORD-00145,2025-12-08,South,Apparel,Jacket,B2B,4,185.11,740.44,Cash
+ORD-00146,2026-03-25,South,Sports,Yoga Mat,Enterprise,3,264.0,792.0,Cash
+ORD-00147,2026-03-18,South,Electronics,Headphones,Enterprise,6,289.34,1736.04,Cash
+ORD-00148,2026-04-27,North,Apparel,Jeans,Enterprise,7,25.74,180.18,Card
+ORD-00149,2025-12-31,West,Books,Biography,Enterprise,2,34.69,69.38,Wire
+ORD-00150,2025-11-25,North,Electronics,Smart Watch,B2C,1,584.84,584.84,Check
+ORD-00151,2026-01-12,North,Electronics,Tablet,B2B,8,1299.58,10396.64,Cash
+ORD-00152,2025-11-27,West,Apparel,Jacket,Enterprise,6,40.87,245.22,Cash
+ORD-00153,2026-01-05,South,Sports,Running Shoes,B2C,2,398.58,797.16,Check
+ORD-00154,2026-03-04,West,Books,Biography,Enterprise,7,51.03,357.21,Card
+ORD-00155,2026-02-10,South,Books,Biography,Enterprise,6,42.59,255.54,Check
+ORD-00156,2026-04-14,East,Electronics,Headphones,B2B,2,222.22,444.44,Card
+ORD-00157,2025-12-02,West,Sports,Running Shoes,B2C,2,310.09,620.18,Check
+ORD-00158,2026-04-18,South,Home,Cookware,B2B,2,485.86,971.72,Check
+ORD-00159,2026-03-05,North,Electronics,Phone,B2C,6,1530.95,9185.7,Wire
+ORD-00160,2026-01-12,East,Sports,Running Shoes,B2B,1,559.94,559.94,Wire
+ORD-00161,2026-02-21,South,Home,Sofa,Enterprise,3,542.76,1628.28,Check
+ORD-00162,2026-04-14,West,Apparel,Jacket,B2C,4,33.81,135.24,Check
+ORD-00163,2026-02-03,North,Apparel,Jeans,B2B,6,78.89,473.34,Wire
+ORD-00164,2026-03-22,West,Sports,Yoga Mat,Enterprise,5,613.09,3065.45,Check
+ORD-00165,2025-12-28,North,Sports,Dumbbells,B2C,4,384.48,1537.92,Check
+ORD-00166,2026-04-03,North,Home,Cookware,B2B,5,742.78,3713.9,Check
+ORD-00167,2025-11-29,South,Electronics,Headphones,B2C,4,415.7,1662.8,Cash
+ORD-00168,2026-02-07,South,Electronics,Headphones,B2B,7,925.45,6478.15,Check
+ORD-00169,2025-12-16,North,Apparel,Cap,B2C,6,129.54,777.24,Card
+ORD-00170,2026-01-10,West,Electronics,Tablet,Enterprise,6,1662.82,9976.92,Check
+ORD-00171,2025-11-19,East,Books,Biography,B2B,1,13.99,13.99,Check
+ORD-00172,2025-11-06,South,Home,Kettle,B2C,2,669.15,1338.3,Check
+ORD-00173,2025-12-18,South,Electronics,Tablet,B2C,6,1574.71,9448.26,Wire
+ORD-00174,2026-04-12,East,Sports,Yoga Mat,B2C,4,486.93,1947.72,Wire
+ORD-00175,2026-03-02,South,Electronics,Laptop,Enterprise,3,505.38,1516.14,Card
+ORD-00176,2026-03-17,East,Books,Children,Enterprise,8,47.23,377.84,Cash
+ORD-00177,2026-03-24,East,Books,Novel,Enterprise,5,32.38,161.9,Card
+ORD-00178,2026-01-31,North,Sports,Yoga Mat,B2B,8,293.16,2345.28,Cash
+ORD-00179,2026-02-17,West,Electronics,Headphones,Enterprise,7,1130.11,7910.77,Card
+ORD-00180,2026-01-06,South,Sports,Bike,B2B,8,302.94,2423.52,Check
+ORD-00181,2026-04-05,North,Home,Kettle,B2B,3,769.21,2307.63,Check
+ORD-00182,2026-01-09,East,Sports,Running Shoes,B2C,6,556.63,3339.78,Check
+ORD-00183,2026-01-17,North,Home,Cookware,B2C,6,102.24,613.44,Card
+ORD-00184,2025-12-10,East,Books,Biography,B2B,3,21.1,63.3,Wire
+ORD-00185,2026-02-01,East,Home,Mattress,Enterprise,2,215.2,430.4,Check
+ORD-00186,2025-11-18,West,Home,Lamp,Enterprise,2,1013.42,2026.84,Cash
+ORD-00187,2026-04-27,East,Home,Sofa,B2C,4,290.89,1163.56,Wire
+ORD-00188,2026-03-05,North,Apparel,Sneakers,Enterprise,2,30.82,61.64,Cash
+ORD-00189,2025-11-24,South,Apparel,Cap,Enterprise,3,92.23,276.69,Wire
+ORD-00190,2026-01-09,West,Electronics,Tablet,Enterprise,4,693.88,2775.52,Cash
+ORD-00191,2026-01-07,South,Apparel,Cap,B2C,8,64.03,512.24,Check
+ORD-00192,2026-01-03,South,Home,Mattress,B2B,7,766.79,5367.53,Wire
+ORD-00193,2026-02-26,North,Electronics,Tablet,B2C,2,1580.96,3161.92,Card
+ORD-00194,2026-03-21,West,Home,Mattress,B2B,3,1360.33,4080.99,Wire
+ORD-00195,2026-01-06,East,Home,Kettle,B2B,7,636.97,4458.79,Check
+ORD-00196,2026-04-11,East,Home,Lamp,B2B,2,66.58,133.16,Wire
+ORD-00197,2026-04-22,West,Home,Mattress,B2C,3,1051.71,3155.13,Card
+ORD-00198,2026-04-11,West,Electronics,Phone,B2B,3,435.24,1305.72,Cash
+ORD-00199,2026-03-02,West,Home,Kettle,B2B,7,95.43,668.01,Card
+ORD-00200,2025-12-25,South,Sports,Running Shoes,B2C,4,34.46,137.84,Check
+ORD-00201,2026-05-01,South,Sports,Tennis Racket,Enterprise,7,231.7,1621.9,Card
+ORD-00202,2025-12-18,West,Home,Kettle,B2C,1,1431.27,1431.27,Card
+ORD-00203,2025-11-20,East,Books,Biography,B2B,1,21.19,21.19,Cash
+ORD-00204,2026-03-01,South,Electronics,Smart Watch,B2B,6,1339.23,8035.38,Cash
+ORD-00205,2025-12-13,West,Home,Lamp,Enterprise,8,1249.82,9998.56,Wire
+ORD-00206,2026-03-28,North,Electronics,Tablet,B2B,4,124.35,497.4,Card
+ORD-00207,2026-02-10,East,Home,Cookware,B2B,8,612.38,4899.04,Wire
+ORD-00208,2026-02-17,East,Home,Kettle,B2B,6,1302.05,7812.3,Cash
+ORD-00209,2026-01-10,East,Books,Children,B2B,7,54.52,381.64,Check
+ORD-00210,2025-11-05,North,Books,Biography,Enterprise,5,56.06,280.3,Check
+ORD-00211,2026-04-11,East,Books,Tech Manual,B2C,3,59.75,179.25,Card
+ORD-00212,2026-04-11,South,Home,Sofa,Enterprise,7,477.08,3339.56,Check
+ORD-00213,2026-02-01,West,Books,Novel,B2C,6,45.79,274.74,Card
+ORD-00214,2026-04-12,North,Books,Biography,B2B,3,34.68,104.04,Check
+ORD-00215,2026-04-23,East,Apparel,Jacket,B2C,6,63.38,380.28,Card
+ORD-00216,2025-11-28,West,Apparel,T-shirt,B2B,6,209.51,1257.06,Wire
+ORD-00217,2025-12-17,South,Home,Mattress,B2B,5,488.72,2443.6,Card
+ORD-00218,2026-03-15,East,Books,Tech Manual,B2C,2,28.12,56.24,Check
+ORD-00219,2026-03-08,South,Sports,Tennis Racket,B2B,8,630.7,5045.6,Wire
+ORD-00220,2026-04-13,North,Books,Cookbook,Enterprise,8,54.73,437.84,Cash
+ORD-00221,2025-11-12,East,Home,Kettle,B2B,5,836.25,4181.25,Wire
+ORD-00222,2026-01-29,South,Sports,Bike,B2B,4,126.8,507.2,Check
+ORD-00223,2026-04-25,South,Home,Cookware,Enterprise,8,869.11,6952.88,Card
+ORD-00224,2026-04-15,West,Home,Mattress,B2C,8,1499.4,11995.2,Card
+ORD-00225,2026-03-30,South,Home,Kettle,Enterprise,6,688.71,4132.26,Wire
+ORD-00226,2026-03-29,North,Books,Tech Manual,Enterprise,1,55.36,55.36,Wire
+ORD-00227,2026-02-13,East,Apparel,Sneakers,Enterprise,4,81.15,324.6,Cash
+ORD-00228,2026-04-11,South,Home,Lamp,Enterprise,5,961.71,4808.55,Cash
+ORD-00229,2025-11-25,South,Sports,Yoga Mat,B2B,3,462.26,1386.78,Cash
+ORD-00230,2025-12-08,South,Electronics,Headphones,Enterprise,5,201.33,1006.65,Check
+ORD-00231,2025-11-24,East,Electronics,Tablet,B2C,5,1606.85,8034.25,Wire
+ORD-00232,2025-11-07,South,Books,Biography,B2C,1,31.58,31.58,Check
+ORD-00233,2025-12-29,East,Books,Cookbook,Enterprise,3,25.69,77.07,Cash
+ORD-00234,2026-02-02,East,Books,Cookbook,B2B,2,47.55,95.1,Check
+ORD-00235,2026-03-31,North,Home,Mattress,B2C,2,390.68,781.36,Check
+ORD-00236,2025-11-25,East,Books,Cookbook,Enterprise,3,58.06,174.18,Cash
+ORD-00237,2026-03-14,West,Apparel,T-shirt,B2C,8,219.17,1753.36,Check
+ORD-00238,2026-04-26,South,Electronics,Tablet,Enterprise,4,939.47,3757.88,Cash
+ORD-00239,2026-04-19,East,Electronics,Phone,Enterprise,8,921.12,7368.96,Card
+ORD-00240,2026-04-04,West,Books,Cookbook,B2C,6,53.89,323.34,Card
+ORD-00241,2026-01-19,East,Electronics,Smart Watch,B2B,6,1037.56,6225.36,Check
+ORD-00242,2025-12-23,South,Books,Tech Manual,B2B,2,22.55,45.1,Check
+ORD-00243,2026-01-26,South,Home,Cookware,Enterprise,3,1409.95,4229.85,Check
+ORD-00244,2025-12-24,West,Electronics,Headphones,Enterprise,6,127.71,766.26,Check
+ORD-00245,2026-03-24,South,Sports,Running Shoes,B2C,6,143.01,858.06,Cash
+ORD-00246,2025-12-01,East,Home,Cookware,B2C,8,1246.73,9973.84,Card
+ORD-00247,2026-01-27,North,Home,Kettle,Enterprise,5,1470.35,7351.75,Check
+ORD-00248,2026-02-23,West,Sports,Running Shoes,B2B,1,220.24,220.24,Check
+ORD-00249,2026-03-25,South,Apparel,Jacket,B2B,2,132.38,264.76,Check
+ORD-00250,2026-02-10,West,Books,Cookbook,Enterprise,4,29.47,117.88,Check
+ORD-00251,2026-04-16,West,Apparel,Cap,Enterprise,6,57.51,345.06,Check
+ORD-00252,2026-02-10,East,Apparel,T-shirt,Enterprise,6,201.99,1211.94,Cash
+ORD-00253,2025-11-26,East,Books,Cookbook,B2B,5,57.78,288.9,Cash
+ORD-00254,2026-02-17,East,Apparel,T-shirt,B2C,6,79.99,479.94,Card
+ORD-00255,2025-12-06,East,Sports,Dumbbells,B2B,7,808.27,5657.89,Cash
+ORD-00256,2026-04-21,East,Home,Kettle,Enterprise,8,535.89,4287.12,Check
+ORD-00257,2026-03-08,South,Apparel,Cap,B2B,5,70.58,352.9,Wire
+ORD-00258,2026-02-28,North,Electronics,Smart Watch,B2B,4,452.67,1810.68,Check
+ORD-00259,2026-02-06,North,Books,Novel,Enterprise,3,43.42,130.26,Wire
+ORD-00260,2026-01-17,East,Books,Children,B2C,5,41.83,209.15,Card
+ORD-00261,2026-04-09,South,Sports,Bike,B2C,1,490.93,490.93,Wire
+ORD-00262,2026-04-22,North,Books,Children,B2B,5,17.69,88.45,Cash
+ORD-00263,2025-12-07,East,Sports,Yoga Mat,B2C,6,837.04,5022.24,Check
+ORD-00264,2026-03-28,East,Sports,Dumbbells,B2B,2,260.1,520.2,Check
+ORD-00265,2025-11-17,East,Home,Lamp,Enterprise,6,45.77,274.62,Wire
+ORD-00266,2026-03-18,North,Sports,Dumbbells,B2C,6,747.75,4486.5,Card
+ORD-00267,2026-03-15,North,Apparel,T-shirt,B2C,4,81.34,325.36,Check
+ORD-00268,2026-03-02,North,Books,Biography,B2C,5,57.61,288.05,Cash
+ORD-00269,2025-11-05,East,Apparel,Jacket,B2B,8,151.9,1215.2,Check
+ORD-00270,2025-11-07,East,Sports,Tennis Racket,Enterprise,5,627.46,3137.3,Wire
+ORD-00271,2026-03-06,West,Apparel,T-shirt,Enterprise,6,46.4,278.4,Check
+ORD-00272,2025-12-15,West,Apparel,Sneakers,Enterprise,2,154.47,308.94,Cash
+ORD-00273,2026-04-12,South,Sports,Yoga Mat,B2B,4,74.35,297.4,Cash
+ORD-00274,2025-12-19,North,Books,Novel,Enterprise,8,43.38,347.04,Check
+ORD-00275,2026-04-17,North,Books,Cookbook,Enterprise,8,34.69,277.52,Check
+ORD-00276,2025-11-10,South,Home,Kettle,Enterprise,1,609.02,609.02,Card
+ORD-00277,2026-04-20,North,Books,Biography,B2C,1,44.42,44.42,Card
+ORD-00278,2026-02-17,East,Books,Cookbook,B2C,7,47.99,335.93,Check
+ORD-00279,2026-01-25,East,Books,Novel,B2B,3,43.5,130.5,Wire
+ORD-00280,2025-12-15,North,Books,Tech Manual,B2B,4,14.62,58.48,Cash
+ORD-00281,2026-01-03,South,Sports,Dumbbells,B2C,4,488.1,1952.4,Cash
+ORD-00282,2026-03-23,North,Home,Lamp,Enterprise,2,1407.68,2815.36,Check
+ORD-00283,2025-11-25,North,Electronics,Laptop,B2C,2,418.58,837.16,Card
+ORD-00284,2026-02-28,North,Electronics,Tablet,B2B,4,823.8,3295.2,Cash
+ORD-00285,2026-03-03,South,Sports,Tennis Racket,B2C,6,528.18,3169.08,Wire
+ORD-00286,2025-11-13,North,Sports,Bike,Enterprise,5,383.93,1919.65,Wire
+ORD-00287,2025-11-22,West,Books,Tech Manual,Enterprise,6,33.77,202.62,Cash
+ORD-00288,2025-11-04,South,Books,Children,Enterprise,7,15.76,110.32,Check
+ORD-00289,2026-03-01,West,Apparel,Jeans,B2B,3,190.8,572.4,Check
+ORD-00290,2026-01-15,East,Sports,Running Shoes,B2B,4,138.0,552.0,Cash
+ORD-00291,2025-11-17,South,Electronics,Tablet,B2B,2,1534.01,3068.02,Cash
+ORD-00292,2026-01-25,South,Sports,Running Shoes,Enterprise,2,54.8,109.6,Wire
+ORD-00293,2025-12-30,South,Apparel,Jeans,B2B,1,77.15,77.15,Card
+ORD-00294,2025-12-30,South,Apparel,Cap,Enterprise,7,159.27,1114.89,Cash
+ORD-00295,2026-02-18,East,Books,Children,B2C,6,35.75,214.5,Cash
+ORD-00296,2025-12-21,East,Books,Children,B2B,8,13.13,105.04,Cash
+ORD-00297,2026-02-10,South,Books,Novel,B2B,4,37.25,149.0,Cash
+ORD-00298,2025-12-11,South,Sports,Running Shoes,B2B,5,653.61,3268.05,Cash
+ORD-00299,2026-03-04,East,Books,Tech Manual,B2C,8,51.33,410.64,Check
+ORD-00300,2025-11-18,South,Books,Children,B2B,6,16.75,100.5,Check
+ORD-00301,2026-03-15,North,Sports,Yoga Mat,B2B,2,481.07,962.14,Check
+ORD-00302,2026-03-27,South,Apparel,Jacket,Enterprise,1,159.97,159.97,Check
+ORD-00303,2026-01-26,West,Electronics,Smart Watch,B2B,8,1169.65,9357.2,Card
+ORD-00304,2025-12-16,East,Sports,Dumbbells,B2B,5,30.43,152.15,Check
+ORD-00305,2026-03-17,South,Electronics,Headphones,Enterprise,4,972.43,3889.72,Cash
+ORD-00306,2026-01-31,West,Home,Mattress,Enterprise,7,141.55,990.85,Wire
+ORD-00307,2025-11-04,North,Apparel,Jeans,B2B,2,155.23,310.46,Check
+ORD-00308,2026-01-24,South,Books,Tech Manual,B2B,1,32.75,32.75,Check
+ORD-00309,2026-01-10,North,Home,Cookware,B2B,2,1466.56,2933.12,Wire
+ORD-00310,2025-11-05,East,Sports,Dumbbells,Enterprise,2,258.56,517.12,Card
+ORD-00311,2026-03-17,West,Home,Kettle,B2B,3,1443.17,4329.51,Cash
+ORD-00312,2026-03-21,East,Sports,Bike,B2C,7,518.69,3630.83,Wire
+ORD-00313,2025-11-06,North,Electronics,Smart Watch,B2B,6,1357.09,8142.54,Check
+ORD-00314,2026-03-03,East,Electronics,Phone,B2B,7,1112.99,7790.93,Cash
+ORD-00315,2026-01-06,West,Books,Cookbook,B2B,7,26.5,185.5,Check
+ORD-00316,2026-04-10,North,Sports,Tennis Racket,B2C,2,722.29,1444.58,Wire
+ORD-00317,2026-01-24,North,Apparel,T-shirt,B2B,2,79.92,159.84,Cash
+ORD-00318,2026-01-08,South,Home,Sofa,B2C,2,175.79,351.58,Check
+ORD-00319,2025-12-10,North,Sports,Running Shoes,B2C,1,379.08,379.08,Card
+ORD-00320,2025-11-30,East,Sports,Tennis Racket,B2C,1,780.07,780.07,Check
+ORD-00321,2026-04-10,West,Sports,Bike,B2B,3,523.33,1569.99,Wire
+ORD-00322,2026-02-22,South,Home,Sofa,B2C,2,752.36,1504.72,Cash
+ORD-00323,2026-01-14,East,Home,Mattress,B2B,6,1179.43,7076.58,Check
+ORD-00324,2025-11-30,East,Sports,Bike,B2B,3,422.92,1268.76,Check
+ORD-00325,2026-02-05,West,Sports,Dumbbells,B2C,6,727.59,4365.54,Check
+ORD-00326,2025-11-16,West,Sports,Bike,B2C,4,284.38,1137.52,Wire
+ORD-00327,2026-01-20,South,Home,Sofa,B2C,8,1108.94,8871.52,Check
+ORD-00328,2026-02-19,South,Books,Biography,Enterprise,4,13.92,55.68,Card
+ORD-00329,2026-01-03,West,Apparel,T-shirt,Enterprise,2,178.53,357.06,Check
+ORD-00330,2026-03-27,West,Home,Lamp,B2C,3,397.71,1193.13,Card
+ORD-00331,2026-01-07,North,Sports,Dumbbells,B2C,7,532.37,3726.59,Card
+ORD-00332,2026-04-04,West,Apparel,Jeans,B2C,1,49.1,49.1,Check
+ORD-00333,2026-04-04,West,Electronics,Headphones,B2C,4,510.2,2040.8,Check
+ORD-00334,2026-01-03,West,Sports,Running Shoes,B2B,1,152.66,152.66,Cash
+ORD-00335,2026-01-15,East,Electronics,Headphones,B2C,3,1506.49,4519.47,Cash
+ORD-00336,2026-01-05,North,Apparel,Cap,B2C,8,114.0,912.0,Check
+ORD-00337,2026-02-09,North,Electronics,Phone,B2C,2,137.75,275.5,Card
+ORD-00338,2025-11-09,East,Apparel,Sneakers,Enterprise,3,120.78,362.34,Check
+ORD-00339,2026-01-03,West,Apparel,T-shirt,B2C,3,144.1,432.3,Card
+ORD-00340,2025-11-25,North,Apparel,T-shirt,Enterprise,7,136.4,954.8,Wire
+ORD-00341,2026-03-10,East,Home,Kettle,B2C,3,876.59,2629.77,Wire
+ORD-00342,2026-01-04,East,Electronics,Phone,Enterprise,8,1227.02,9816.16,Check
+ORD-00343,2025-11-26,West,Books,Tech Manual,Enterprise,6,13.94,83.64,Wire
+ORD-00344,2025-11-10,East,Home,Cookware,B2B,3,895.5,2686.5,Wire
+ORD-00345,2026-02-12,West,Electronics,Laptop,B2C,3,709.55,2128.65,Wire
+ORD-00346,2025-12-05,South,Books,Children,B2C,3,17.66,52.98,Cash
+ORD-00347,2026-03-27,East,Apparel,Jeans,B2B,1,187.61,187.61,Check
+ORD-00348,2026-03-28,West,Apparel,T-shirt,Enterprise,8,212.58,1700.64,Check
+ORD-00349,2026-01-15,South,Books,Children,B2C,1,16.7,16.7,Card
+ORD-00350,2026-02-20,West,Apparel,Cap,Enterprise,8,74.18,593.44,Card
+ORD-00351,2025-12-06,North,Electronics,Phone,Enterprise,6,1408.7,8452.2,Check
+ORD-00352,2025-12-13,East,Apparel,T-shirt,B2B,4,36.0,144.0,Check
+ORD-00353,2026-02-23,South,Home,Kettle,B2B,2,672.63,1345.26,Cash
+ORD-00354,2025-11-26,South,Books,Cookbook,B2B,4,40.04,160.16,Cash
+ORD-00355,2025-12-16,East,Home,Cookware,B2C,6,819.68,4918.08,Cash
+ORD-00356,2025-12-21,North,Electronics,Laptop,B2C,7,1735.22,12146.54,Wire
+ORD-00357,2025-11-03,South,Apparel,Sneakers,Enterprise,6,44.98,269.88,Check
+ORD-00358,2025-12-27,West,Apparel,Cap,B2C,7,144.64,1012.48,Card
+ORD-00359,2025-11-20,East,Electronics,Tablet,B2C,5,957.17,4785.85,Check
+ORD-00360,2026-02-07,West,Sports,Yoga Mat,Enterprise,2,784.64,1569.28,Cash
+ORD-00361,2026-04-15,South,Sports,Dumbbells,B2C,7,211.69,1481.83,Cash
+ORD-00362,2026-02-08,West,Home,Sofa,B2C,3,832.28,2496.84,Card
+ORD-00363,2026-04-20,West,Electronics,Tablet,B2C,3,88.33,264.99,Card
+ORD-00364,2026-01-12,South,Apparel,Sneakers,B2C,5,195.84,979.2,Card
+ORD-00365,2025-11-15,North,Home,Sofa,B2C,3,146.57,439.71,Cash
+ORD-00366,2025-11-03,North,Apparel,T-shirt,B2B,2,149.37,298.74,Check
+ORD-00367,2026-04-12,North,Apparel,Cap,B2B,8,61.37,490.96,Cash
+ORD-00368,2026-04-01,West,Books,Cookbook,B2B,4,32.84,131.36,Card
+ORD-00369,2026-04-05,West,Home,Sofa,B2B,3,1324.46,3973.38,Wire
+ORD-00370,2026-04-14,West,Sports,Running Shoes,B2C,3,27.46,82.38,Wire
+ORD-00371,2025-11-22,South,Apparel,T-shirt,B2B,8,141.3,1130.4,Card
+ORD-00372,2026-03-27,West,Electronics,Smart Watch,B2C,6,1330.22,7981.32,Wire
+ORD-00373,2026-02-27,North,Home,Kettle,Enterprise,5,391.05,1955.25,Cash
+ORD-00374,2026-03-10,East,Sports,Running Shoes,Enterprise,7,468.38,3278.66,Card
+ORD-00375,2026-03-01,North,Books,Children,Enterprise,8,13.86,110.88,Card
+ORD-00376,2026-01-29,East,Home,Lamp,Enterprise,7,595.59,4169.13,Wire
+ORD-00377,2026-01-01,East,Electronics,Headphones,B2B,1,1082.01,1082.01,Card
+ORD-00378,2026-04-16,West,Books,Tech Manual,Enterprise,7,22.9,160.3,Check
+ORD-00379,2026-04-10,North,Sports,Running Shoes,B2C,5,562.12,2810.6,Card
+ORD-00380,2025-12-22,North,Apparel,Sneakers,B2C,7,124.96,874.72,Check
+ORD-00381,2026-03-01,North,Electronics,Laptop,B2C,7,210.01,1470.07,Card
+ORD-00382,2026-02-11,North,Apparel,Jacket,B2B,3,17.6,52.8,Check
+ORD-00383,2026-02-02,South,Sports,Running Shoes,B2C,5,709.03,3545.15,Wire
+ORD-00384,2026-02-22,East,Electronics,Headphones,Enterprise,7,642.92,4500.44,Card
+ORD-00385,2026-02-23,North,Sports,Yoga Mat,B2C,6,456.61,2739.66,Wire
+ORD-00386,2026-01-27,South,Apparel,Jeans,Enterprise,2,173.53,347.06,Card
+ORD-00387,2026-04-20,West,Electronics,Laptop,B2B,6,140.01,840.06,Wire
+ORD-00388,2026-04-22,West,Sports,Dumbbells,Enterprise,4,217.57,870.28,Cash
+ORD-00389,2026-02-21,South,Electronics,Smart Watch,B2B,1,708.69,708.69,Card
+ORD-00390,2026-01-19,East,Electronics,Tablet,B2B,5,1566.9,7834.5,Check
+ORD-00391,2026-04-29,South,Home,Lamp,B2C,5,455.1,2275.5,Cash
+ORD-00392,2025-12-01,South,Books,Cookbook,B2B,4,46.09,184.36,Check
+ORD-00393,2026-04-25,East,Apparel,Cap,B2B,1,86.02,86.02,Check
+ORD-00394,2026-02-12,West,Electronics,Laptop,B2C,4,981.88,3927.52,Card
+ORD-00395,2026-03-26,West,Home,Kettle,Enterprise,4,89.75,359.0,Cash
+ORD-00396,2026-01-04,West,Electronics,Smart Watch,B2B,3,226.3,678.9,Card
+ORD-00397,2026-01-10,West,Apparel,Sneakers,Enterprise,6,74.79,448.74,Cash
+ORD-00398,2026-02-09,South,Books,Biography,Enterprise,4,20.15,80.6,Card
+ORD-00399,2026-03-23,West,Electronics,Laptop,B2B,6,842.25,5053.5,Cash
+ORD-00400,2026-03-09,North,Books,Biography,B2B,2,32.09,64.18,Cash

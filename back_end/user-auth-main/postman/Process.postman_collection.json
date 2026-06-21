@@ -1,0 +1,132 @@
+{
+  "info": {
+    "name": "Process APIs",
+    "_postman_id": "process-collection",
+    "description": "Collection for testing process endpoints: analyze, normalize-columns, handle-missing, rollback",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Analyze File",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "x-auth-token", "value": "{{token}}" }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/process/{{fileId}}/analyze",
+          "host": ["{{baseUrl}}"],
+          "path": ["process","{{fileId}}","analyze"]
+        }
+      },
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const res = pm.response.json();",
+              "pm.test('Response status is success', () => pm.expect(res.status).to.eql('success'));",
+              "pm.test('Data object exists', () => pm.expect(res).to.have.property('data'));",
+              "pm.test('Analysis contains required keys', () => pm.expect(res.data).to.include.all.keys('metadata','summaryStatistics','missingValues','uniqueValues','status'));",
+              "pm.test('Metadata has rows and columns', () => pm.expect(res.data.metadata).to.include.all.keys('rows','columns','columnNames','dataTypes'));"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Normalize Columns",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "x-auth-token", "value": "{{token}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/process/{{fileId}}/normalize-columns",
+          "host": ["{{baseUrl}}"],
+          "path": ["process","{{fileId}}","normalize-columns"]
+        }
+      },
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const res = pm.response.json();",
+              "pm.test('Response status is success', () => pm.expect(res.status).to.eql('success'));",
+              "pm.test('Returned data is present', () => pm.expect(res).to.have.property('data'));"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Handle Missing Values",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "x-auth-token", "value": "{{token}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"column\": \"{{column}}\",\n  \"strategy\": \"{{strategy}}\",\n  \"fillValue\": \"{{fillValue}}\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/process/{{fileId}}/handle-missing",
+          "host": ["{{baseUrl}}"],
+          "path": ["process","{{fileId}}","handle-missing"]
+        }
+      },
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const res = pm.response.json();",
+              "pm.test('Response status is success', () => pm.expect(res.status).to.eql('success'));",
+              "pm.test('Returned data is present', () => pm.expect(res).to.have.property('data'));"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rollback File",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "x-auth-token", "value": "{{token}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/process/{{fileId}}/rollback",
+          "host": ["{{baseUrl}}"],
+          "path": ["process","{{fileId}}","rollback"]
+        }
+      },
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const res = pm.response.json();",
+              "pm.test('Response status is success', () => pm.expect(res.status).to.eql('success'));",
+              "pm.test('Returned data is present', () => pm.expect(res).to.have.property('data'));"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ]
+    }
+  ]
+}

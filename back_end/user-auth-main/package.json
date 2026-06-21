@@ -1,0 +1,54 @@
+{
+  "name": "user-auth",
+  "version": "1.0.0",
+  "description": "User Authentication Service – A backend service for secure user authentication using JWT (JSON Web Tokens). Supports user signup, login, access token generation, refresh tokens for session renewal, and token validation for protected routes.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Data-Vanta/user-auth.git"
+  },
+  "keywords": [],
+  "author": "Karim Ali",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Data-Vanta/user-auth/issues"
+  },
+  "homepage": "https://github.com/Data-Vanta/user-auth#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dataframe": "^1.0.0",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "seed": "node src/seeds/seedRolesPermissions.js",
+    "check:associations": "node src/seeds/checkAssociations.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:setup": "node scripts/setup-test-data.js",
+    "test:analyze": "node scripts/run-analyze.js",
+    "test:normalize": "node scripts/run-normalize.js",
+    "test:handle-missing": "node scripts/run-handle-missing.js",
+    "test:rollback": "node scripts/run-rollback.js",
+    "test:process:all": "node scripts/run-all-process-tests.js"
+  }
+}

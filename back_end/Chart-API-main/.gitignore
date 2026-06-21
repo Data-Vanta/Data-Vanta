@@ -1,0 +1,8 @@
+.env
+venv/
+__pycache__/
+.venv/
+*.pyc
+
+# Engine warehouse + catalog — per-install data, never commit.
+data/

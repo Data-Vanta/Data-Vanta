@@ -1,0 +1,23 @@
+{
+  "name": "data-vanta-monorepo",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Vanta — chat-driven data analytics platform (monorepo)",
+  "workspaces": [
+    "Front_end/vanta-auth-ui",
+    "back_end/user-auth-main"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:infra": "docker-compose -f back_end/user-auth-main/docker-compose.yml up -d",
+    "dev:stop": "docker-compose -f back_end/user-auth-main/docker-compose.yml down",
+    "dev:front": "npm run dev --workspace Front_end/vanta-auth-ui",
+    "dev:auth": "npm start --workspace back_end/user-auth-main",
+    "dev:chart": "cd back_end/Chart-API-main && python main.py",
+    "dev:native": "concurrently -n auth,chart,front -c magenta,cyan,green \"npm run dev:auth\" \"npm run dev:chart\" \"npm run dev:front\"",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

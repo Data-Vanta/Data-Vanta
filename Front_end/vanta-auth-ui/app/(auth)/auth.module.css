@@ -1,0 +1,202 @@
+/* ===== Layout ===== */
+.wrapper {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  background: #000000;
+}
+
+/* ===== Left (Hero) ===== */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 28px 56px;
+  display: grid;
+  align-content: start;
+}
+
+.bgEffect {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.37;
+  margin-top: 9%;
+  margin-left: -20%;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 30px;
+  align-content: start;
+}
+
+.badge {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #c3ff13;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.badge::after {
+  content: "V";
+  color: #000;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  font-family: var(--font-orbitron), ui-sans-serif;
+}
+
+.title {
+  font-family: var(--font-orbitron), ui-sans-serif;
+  font-size: 47px;
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: 0.2px;
+  max-width: 900px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.copy {
+  font-family:
+    var(--font-roboto),
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto;
+  color: #cfcfcf;
+  max-width: 720px;
+  font-size: 16px;
+}
+
+/* ===== Right column ===== */
+.formCol {
+  color: #000;
+  background: #fff;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 24px;
+}
+.formContainer {
+  width: 100%;
+  max-width: 560px;
+}
+
+/* ===== Header Row ===== */
+.logoRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.brandText {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+/* ===== Form ===== */
+.rowSplit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.lightInput {
+  height: 52px;
+  border-radius: 14px;
+  padding: 0 14px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  color: #0b0b0b;
+}
+.lightInput:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(195, 255, 19, 0.28);
+  border-color: #bfbfbf;
+}
+
+.showBtn {
+  height: 52px;
+  border-radius: 14px;
+  padding: 0 16px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  font-weight: 600;
+}
+
+.btnFull {
+  width: 100%;
+  height: 52px;
+  border-radius: 999px;
+  border: 1px solid #e6e6e6;
+  background: #c3ff13;
+  font-weight: 800;
+  box-shadow: 0 12px 28px rgba(195, 255, 19, 0.25);
+}
+.btnFull:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.sub {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  color: #606060;
+  font-size: 14px;
+}
+
+.form {
+  display: grid;
+  gap: 16px;
+  width: 100%;
+  max-width: 560px;
+  margin-top: 15px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.formFooter {
+  text-align: center;
+  margin-top: 20px;
+  color: #606060;
+  font-size: 14px;
+}
+.link {
+  color: #111;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.heading {
+  font-family: var(--font-orbitron), ui-sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+  margin: 12px 0 6px;
+  color: #000;
+}
+.card {
+  width: 100%;
+  max-width: 560px;
+}

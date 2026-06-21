@@ -1,0 +1,32 @@
+fastapi
+uvicorn
+openai
+pydantic
+PyYAML>=6.0
+httpx
+python-dotenv
+python-multipart  # FastAPI multipart form uploads
+
+# Thinking-mode sandbox — the agent's Python sandbox auto-loads the
+# DataFrame and renders matplotlib figures.
+pandas>=2.0
+pyarrow>=14.0
+matplotlib>=3.7
+
+# Local-disk warehouse engine (replaces the Spring/Spark/Iceberg stack).
+duckdb>=1.0
+openpyxl>=3.1       # .xlsx read for pandas
+cryptography>=42    # connector credential encryption (AES-256-GCM via AESGCM)
+
+# Database connector drivers. Small enough to bundle — ingestion happens
+# in-process. DuckDB extensions for postgres/mysql/sqlite are loaded
+# lazily at runtime, not pip-installed.
+psycopg2-binary>=2.9   # Postgres + Redshift
+PyMySQL>=1.1           # MySQL / MariaDB
+pymongo>=4.6
+oracledb>=2.0
+# pyodbc (MSSQL) is optional because it needs a system ODBC driver; the
+# ingester will emit a clear install hint when called without it.
+# google-cloud-bigquery and snowflake-connector-python are similarly
+# large and only needed when those connectors are actually used — we
+# install them lazily in the ingester.
