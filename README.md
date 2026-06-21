@@ -25,5 +25,3 @@ npm run dev
 - `http://localhost:3000` — app
 
 ---
-
-Repository: [github.com/Aymona777/Data-Vanta](https://github.com/Aymona777/Data-Vanta).
